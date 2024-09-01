@@ -9,14 +9,9 @@ public class factorial{
     }
 
     static int numberFactorial(int n){
-        if(n == 0){
+        if(n <= 1){
             return 1;
         }
-      
-        // int smallAns = numberFactorial(n-1);
-        // int ans = n * smallAns;
-        // return ans;
-
         return n * numberFactorial(n-1);
 
     }

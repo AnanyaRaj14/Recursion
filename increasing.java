@@ -1,3 +1,5 @@
+// **********************************  M-1  ***************************************
+
 import java.util.Scanner;
 public class increasing{
     public static void main(String[] args){
@@ -13,6 +15,40 @@ public class increasing{
             return;
         }
         printIncreasing(n-1);
-        System.out.print(" " + n );
+        System.out.println(" " + n );
     }
 }
+
+
+// *******************************************  M-2  *******************************************
+// import java.util.Scanner;
+// public class increasing{
+//     public static void main(String[] args){
+//         print(1);
+//     }
+
+//     static void print(int n){
+//         if(n == 10){
+//             return;
+//         }
+//         System.out.println(n);
+//         print(n+1);
+//     }
+// }
+
+
+// ******************************  M-3 *******************************
+// import java.util.Scanner;
+// public class increasing{
+//     public static void main(String[] args){
+//         print(10);
+//     }
+
+//     static void print(int n){
+//         if(n == 0){
+//             return;
+//         }
+//         print(n-1);
+//         System.out.println(n);    
+//     }
+// }

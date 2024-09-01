@@ -1,3 +1,4 @@
+// *****************************  M-1  ************************************
 import java.util.Scanner;
 public class decreasing{
     public static void main (String[] args){
@@ -11,7 +12,12 @@ public class decreasing{
             System.out.print(n);
             return;
         }
-        System.out.print(n + " ");
+        System.out.println(n + " ");
         printDecreasing(n-1);
     }
 }
+
+
+
+
+
