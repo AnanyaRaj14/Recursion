@@ -10,8 +10,8 @@ public class increasing{
     }
 
     static void printIncreasing(int n){
-        if(n == 1){
-            System.out.print(n);
+        if(n == 0){
+            // System.out.println(n);
             return;
         }
         printIncreasing(n-1);

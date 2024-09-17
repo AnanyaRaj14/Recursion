@@ -8,11 +8,11 @@ public class decreasing{
         printDecreasing(n);
     }
     static void printDecreasing(int n){
-        if(n == 1){
-            System.out.print(n);
+        if(n == 0){
+            // System.out.print(n);
             return;
         }
-        System.out.println(n + " ");
+        System.out.println(n);
         printDecreasing(n-1);
     }
 }
